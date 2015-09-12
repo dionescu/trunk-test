@@ -1,3 +1,13 @@
+bind(
+  name = "libssl",
+  actual = "//third_party/boringssl:boringssl",
+)
+
+bind(
+  name = "zlib",
+  actual = "//third_party/zlib",
+)
+
 # Protobuf compiler binary
 bind(
   name = "protoc",
