@@ -22,3 +22,12 @@
 [submodule "third_party/zlib/upstream"]
 	path = third_party/zlib/upstream
 	url = https://github.com/madler/zlib.git
+[submodule "third_party/snappy/upstream"]
+	path = third_party/snappy/upstream
+	url = https://github.com/google/snappy.git
+[submodule "third_party/gtest/upstream"]
+	path = third_party/gtest/upstream
+	url = https://chromium.googlesource.com/external/googletest
+[submodule "third_party/gmock/upstream"]
+	path = third_party/gmock/upstream
+	url = https://chromium.googlesource.com/external/gmock
