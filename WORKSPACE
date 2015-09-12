@@ -38,3 +38,9 @@ bind(
   name = "grpc++",
   actual = "//third_party/grpc/upstream:grpc++"
 )
+
+# Disable loading of any android depenedency rule
+bind(name = "android/aar_generator")
+bind(name = "android/incremental_split_stub_application")
+bind(name = "android/incremental_stub_application")
+bind(name = "android/resources_processor")
