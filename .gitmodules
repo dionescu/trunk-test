@@ -31,3 +31,6 @@
 [submodule "third_party/gmock/upstream"]
 	path = third_party/gmock/upstream
 	url = https://chromium.googlesource.com/external/gmock
+[submodule "third_party/re"]
+	path = third_party/re
+	url = https://github.com/google/re2.git
