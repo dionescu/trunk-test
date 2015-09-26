@@ -34,3 +34,6 @@
 [submodule "third_party/gperftools/upstream"]
 	path = third_party/gperftools/upstream
 	url = https://github.com/mzhaom/gperftools.git
+[submodule "third_party/benchmark/upstream"]
+	path = third_party/benchmark/upstream
+	url = https://github.com/google/benchmark.git
