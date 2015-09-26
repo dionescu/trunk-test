@@ -56,7 +56,10 @@ cc_library(
   includes = [
     "upstream/include",
   ],
-  defines = ["HAVE_POSIX_REGEX"],
+  defines = [
+    "HAVE_POSIX_REGEX",
+    "HAVE_STEADY_CLOCK",
+  ]
 )
 
 cc_test(
@@ -70,6 +73,30 @@ cc_test(
 cc_test(
   name = "benchmark_test",
   srcs = ["upstream/test/benchmark_test.cc"],
+  deps = [
+    ":benchmark",
+  ]
+)
+
+cc_test(
+  name = "filter_test",
+  srcs = ["upstream/test/filter_test.cc"],
+  deps = [
+    ":benchmark",
+  ]
+)
+
+cc_test(
+  name = "fixture_test",
+  srcs = ["upstream/test/fixture_test.cc"],
+  deps = [
+    ":benchmark",
+  ]
+)
+
+cc_test(
+  name = "options_test",
+  srcs = ["upstream/test/options_test.cc"],
   deps = [
     ":benchmark",
   ]
