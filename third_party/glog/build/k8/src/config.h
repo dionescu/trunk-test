@@ -171,7 +171,7 @@
 #define STL_NAMESPACE std
 
 /* location of source code */
-#define TEST_SRC_DIR "../../upstream"
+#define TEST_SRC_DIR "third_party/glog/upstream"
 
 /* Version number of package */
 #define VERSION "0.3.4"
